@@ -1,5 +1,4 @@
-# Delhi-metroApp.cpp
-# Metro-App
+# Delhi-Metro-App
 Please don't get confused, this is NOT an ANDROID Application!
 
 This is a simple program that will take information (name) of the source station and the destination station, of Delhi Metro, from the user and display the fare and shortest metro route to reach the destination. It will also be having a metro map for commuter’s better navigation.
