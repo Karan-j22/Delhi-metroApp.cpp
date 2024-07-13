@@ -1,11 +1,24 @@
 # Delhi-Metro-App
-Please don't get confused, this is NOT an ANDROID Application!
+This program assists Delhi Metro commuters by calculating the fare and shortest route between a source and destination station. It also includes a metro map for better navigation.
 
-This is a simple program that will take information (name) of the source station and the destination station, of Delhi Metro, from the user and display the fare and shortest metro route to reach the destination. It will also be having a metro map for commuter’s better navigation.
+### Implementation
+- Graph Structure: Nodes represent metro stations with details such as name, corridor, and connected lines. Edges represent the distance between stations.
+- Algorithms: Uses Dijkstra's algorithm, Breadth-First Search (BFS), and Depth-First Search (DFS) to find the shortest path and calculate the fare based on the total distance.
 
-The idea is implemented using Graph and Heap data structures. The graph has nodes and edges. Nodes represent a metro station that will be containing certain information regarding that station like its name, its metro corridor, and the lines which it connects. Edges (the connection between two nodes) represent the distance between the two stations and the cost of each edge will be equal to the distance between the two of its connecting stations(nodes).
+### Features
+1. Shortest Path Calculation: Determines the shortest route between two stations.
+2. Time Calculation: Computes time, based on the total distance of the shortest path.
+3. Route Display: Shows the route from the source to the destination.
+4. Metro Map: Provides a map for navigation.
 
-By using different algorithms like Dijkstra, breadth-first search, depth-first search, etc, the shortest path between the source station and the destination station is determined, and accordingly, the fare is being calculated on the basis of the total distance between the two stations. Finally, the metro route between the two stations and the total fare is displayed.
+### User Interaction
+
+- Input: User enters source and destination station names.
+- Output: Displays the shortest route and fare.
+
+### Summary
+
+This program uses advanced algorithms and data structures to provide Delhi Metro users with essential travel information, including routes and fares, ensuring an efficient and informed commute.
 
 ## Requirements
 Dijkstras Algorithm => https://www.geeksforgeeks.org/c-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/
